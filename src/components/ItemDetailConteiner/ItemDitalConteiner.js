@@ -3,6 +3,7 @@ import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
 import { db } from "../../firebase/firebase"
 import {doc,getDoc,collection} from "firebase/firestore"
+import BeatLoader from "react-spinners/ClipLoader";
 
 const  ItemDitalConteiner = () => {
 
@@ -34,7 +35,7 @@ const  ItemDitalConteiner = () => {
     
     return (
     <>
-        {!loading ? <ItemDetail listProduct = {listProduct}/> : <p>cargando...</p> }
+        {!loading ? <ItemDetail listProduct = {listProduct}/> : <div className="flex justify-center items-center	"> <BeatLoader color="#0B49FC" margin={4} size={30}/> </div>}
     </>
     )
 }

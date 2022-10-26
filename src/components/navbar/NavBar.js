@@ -10,19 +10,19 @@ const NavBar =() =>{
     
     <header className='flex justify-between items-center bg-black '>
         <NavLink  to= "/">
-            <img className ="w-20 pl-5" src = {logo} alt = "" />
+            <img className ="w-24 pl-5" src = {logo} alt = "" />
         </NavLink>
-    <nav className='w-1/4 flex flex-row justify-around text-white'>
-    <NavLink to= "category/men">
-        Men
-    </NavLink>
-    <NavLink to="category/women">
-        Women
-   </NavLink>
-    <NavLink to="cart">
-         <CartWidget/> 
-    </NavLink>
-    </nav>
+        <nav className='w-1/4 flex flex-row justify-around text-white'>
+            <NavLink to= "category/men">
+                Men
+            </NavLink>
+            <NavLink to="category/women">
+                Women
+            </NavLink>
+            <NavLink to="cart">
+                <CartWidget/> 
+            </NavLink>
+        </nav>
     
     
     </header>

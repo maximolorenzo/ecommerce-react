@@ -60,13 +60,15 @@ const Cart = () => {
                       </div>
 
                       <div className="flex-col justify-evenly items-center	">
+                        <div className="pb-3 text-center">
                         <span className="text-lg font-medium text-gray-400 mr-1">
                           Subtotal:
                         </span>
                         <span className="text-lg font-bold text-gray-800 ">
                           ${totalPrice}
                         </span>
-                        <NavLink to= "/from" className=" w-80 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "><span>finalizar compra</span></NavLink>
+                        </div>
+                        <NavLink to= "/form" className=" w-80 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "><span>finalizar compra</span></NavLink>
                       </div>
                     </div>
                   </div>
