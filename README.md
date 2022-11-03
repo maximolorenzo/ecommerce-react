@@ -14,4 +14,4 @@ material UI para el spinner de carga
 react-router-dom para armar la navegacion del proyecto
 firebase para base de datos 
 
- y utilizo tailwind para hacer el css y react-router-dom para las armar la navegacion del poryecto ademas utlizamos firebase para la base de datos y react-spinner para el spinner de carga
+deploy : https://sneakersmaxi.netlify.app/
